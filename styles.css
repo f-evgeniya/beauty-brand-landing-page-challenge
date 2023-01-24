@@ -42,3 +42,8 @@ form .btn {
 form .btn:hover {
   background-color: var(--bg-color);
 }
+.logo {
+  text-align: center;
+  margin-top: 70px;
+  
+}
