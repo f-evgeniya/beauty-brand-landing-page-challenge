@@ -1,2 +1,21 @@
 /* font-family: 'El Messiri', sans-serif; 400, 600
 font-family: 'Open Sans', sans-serif; 400*/
+
+:root {
+  --bg-color: #b6cdbd;
+  --text-color: #222831;
+  --main-text-font: "El Messiri", sans-serif;
+  --secondary-text-font: "Open Sans", sans-serif;
+}
+body{
+    font-family: var(--main-text-font);
+}
+.background {
+  background-color: var(--bg-color);
+}
+.shipping-descr {
+    font-family: var(--secondary-text-font);
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 0;
+}
