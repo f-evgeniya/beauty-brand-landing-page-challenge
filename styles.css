@@ -44,6 +44,8 @@ form .btn:hover {
 }
 .logo {
   text-align: center;
-  margin-top: 70px;
-  
+  margin-top: 50px;
+}
+.carousel{
+  margin: 50px 150px;
 }
