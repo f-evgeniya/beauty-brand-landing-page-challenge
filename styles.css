@@ -46,6 +46,12 @@ form .btn:hover {
   text-align: center;
   margin-top: 50px;
 }
-.carousel{
+.carousel {
   margin: 50px 150px;
+}
+.hero-first-title {
+  display: flex;
+  position: relative;
+  top: -480px;
+  left: 650px;
 }
