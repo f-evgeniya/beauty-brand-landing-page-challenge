@@ -55,3 +55,11 @@ form .btn:hover {
   top: -480px;
   left: 650px;
 }
+.carousel-item {
+  position: relative;
+}
+.hero-btn {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
