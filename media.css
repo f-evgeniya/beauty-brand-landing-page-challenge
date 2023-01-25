@@ -7,4 +7,12 @@
   .nav-item {
     padding: 0 15px;
   }
+  .carousel {
+    margin: 50px 100px;
+  }
+}
+@media (max-width: 991px) {
+  .carousel {
+    margin: 50px 0;
+  }
 }
