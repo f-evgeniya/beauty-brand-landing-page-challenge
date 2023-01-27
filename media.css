@@ -2,9 +2,9 @@
   .nav-item {
     padding: 0 25px;
   }
-  .hero-btn{
+  .hero-btn {
     left: 68%;
-font-size: 24px;
+    font-size: 24px;
   }
 }
 @media (max-width: 1200px) {
@@ -14,29 +14,41 @@ font-size: 24px;
   .carousel {
     margin: 50px 100px;
   }
-    .hero-btn{
+  .hero-btn {
     left: 66%;
-font-size: 24px;
+    font-size: 24px;
   }
 }
 @media (max-width: 991px) {
   .carousel {
     margin: 50px 0;
   }
-    .hero-btn{
-   left: 67%;
-font-size: 22px;
-padding: 14px 34px;
+  .hero-btn {
+    left: 67%;
+    font-size: 22px;
+    padding: 14px 34px;
+  }
+  .blog-title {
+    text-align: center;
+  }
+  .blog-img {
+    width: 60%;
+  }
+  .line {
+    margin: 15px 140px;
+  }
+  .blog-card {
+    text-align: center;
+    margin-top: 38px;
   }
 }
 @media (max-width: 768px) {
-
-    .hero-btn{
-   left: 66%;
-font-size: 18px;
-padding: 12px 24px;
+  .hero-btn {
+    left: 66%;
+    font-size: 18px;
+    padding: 12px 24px;
   }
-  .section-heading{
+  .section-heading {
     font-size: 32px;
   }
 }
