@@ -9,6 +9,12 @@ font-family: 'Open Sans', sans-serif; 400,700*/
 }
 body {
   font-family: var(--main-text-font);
+  color: var(--text-color);
+}
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
 }
 .background {
   background-color: var(--bg-color);
@@ -19,6 +25,7 @@ body {
   text-align: center;
   padding: 14px 0;
 }
+/* navbar */
 .navbar-collapse {
   display: flex;
   justify-content: space-around;
@@ -42,10 +49,12 @@ form .btn {
 form .btn:hover {
   background-color: var(--bg-color);
 }
+/* logo */
 .logo {
   text-align: center;
   margin-top: 50px;
 }
+/* hero section */
 .carousel {
   margin: 50px 150px;
 }
@@ -70,7 +79,7 @@ form .btn:hover {
   color: var(--text-color);
   background-color: rgba(355, 355, 355, 0.4);
   opacity: 0.8;
-  padding: 18px 38px;
+  padding: 16px 38px;
   text-transform: uppercase;
   border: none;
   box-shadow: 0 3px 3px #393a3d;
@@ -78,5 +87,39 @@ form .btn:hover {
 }
 .hero-btn:hover {
   background-color: rgba(355, 355, 355, 0.7);
-  
+}
+
+/* section-title */
+.section-title {
+  border-top: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+.section-heading {
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 0;
+}
+.product-card {
+  text-align: center;
+}
+.product-card a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.product-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5px;
+  text-align: center;
+}
+.product-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
 }
