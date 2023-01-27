@@ -1,5 +1,5 @@
 /* font-family: 'El Messiri', sans-serif; 400, 600
-font-family: 'Open Sans', sans-serif; 400*/
+font-family: 'Open Sans', sans-serif; 400,700*/
 
 :root {
   --bg-color: #b6cdbd;
@@ -62,4 +62,21 @@ form .btn:hover {
   position: absolute;
   top: 60%;
   left: 70%;
+
+  border-radius: 20px;
+  font-family: var(--secondary-text-font);
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--text-color);
+  background-color: rgba(355, 355, 355, 0.4);
+  opacity: 0.8;
+  padding: 18px 38px;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 0 3px 3px #393a3d;
+  transition: all 250ms ease-in-out;
+}
+.hero-btn:hover {
+  background-color: rgba(355, 355, 355, 0.7);
+  
 }

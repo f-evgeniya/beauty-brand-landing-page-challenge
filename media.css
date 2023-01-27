@@ -2,6 +2,10 @@
   .nav-item {
     padding: 0 25px;
   }
+  .hero-btn{
+    left: 68%;
+font-size: 24px;
+  }
 }
 @media (max-width: 1200px) {
   .nav-item {
@@ -10,9 +14,26 @@
   .carousel {
     margin: 50px 100px;
   }
+    .hero-btn{
+    left: 66%;
+font-size: 24px;
+  }
 }
 @media (max-width: 991px) {
   .carousel {
     margin: 50px 0;
+  }
+    .hero-btn{
+   left: 67%;
+font-size: 22px;
+padding: 14px 34px;
+  }
+}
+@media (max-width: 768px) {
+
+    .hero-btn{
+   left: 66%;
+font-size: 18px;
+padding: 12px 24px;
   }
 }
