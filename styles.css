@@ -23,12 +23,12 @@ h3 {
   font-family: var(--secondary-text-font);
   font-size: 18px;
   text-align: center;
-  padding: 14px 0;
+  padding: 10px 0;
 }
 .close-btn {
   position: absolute;
   top: 8px;
-  left: 1850px;
+  left: 98%;
   color: var(--text-color);
 }
 /* navbar */
