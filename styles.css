@@ -25,6 +25,12 @@ h3 {
   text-align: center;
   padding: 14px 0;
 }
+.close-btn {
+  position: absolute;
+  top: 8px;
+  left: 1850px;
+  color: var(--text-color);
+}
 /* navbar */
 .navbar-collapse {
   display: flex;
@@ -145,44 +151,56 @@ form .btn:hover {
   color: #8b9c90;
   text-decoration: none;
 }
-.insta-container{
-margin: 0 50px;
+.insta-container {
+  margin: 0 50px;
 }
 /* footer */
-.footer{
+.footer {
   background: var(--bg-color);
   margin-top: 70px;
 }
-.footer-nav{
+.footer-nav {
   list-style: none;
   font-size: 16px;
-  margin: 50px;
+  margin: 50px 0 50px 100px;
+  transition: all 250ms ease-in-out;
 }
-.signup-form{
+.footer-nav a:hover {
+  opacity: 0.8;
+}
+.signup-form {
   text-align: center;
-  
 }
-.signup-form input{
+.signup-form input {
   border: none;
   font-size: 18px;
   padding: 5px 15px;
 }
-.form-btn{
+.form-btn {
   color: #fff;
   background-color: var(--text-color);
+  transition: all 250ms ease-in-out;
 }
-.signup-form-title{
+.form-btn:hover {
+  opacity: 0.8;
+}
+.signup-form-title {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 14px;
   font-size: 24px;
   font-weight: 600;
 }
-.signup-form-text{
+.signup-form-text {
   text-align: center;
 }
-.footer-input{
+.footer-input {
   font-size: 16px;
   padding-top: 0;
   padding-bottom: 0;
+}
+.social-link {
+  color: var(--text-color);
+  padding: 8px 0;
+  font-size: 18px;
 }
