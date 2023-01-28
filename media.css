@@ -48,9 +48,6 @@
     text-align: center;
     margin-top: 38px;
   }
-  .insta-container img {
-    width: 30%;
-  }
 }
 @media (max-width: 768px) {
   .hero-btn {
