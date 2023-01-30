@@ -9,6 +9,9 @@
   .footer-nav {
     margin-left: 50px;
   }
+  .created {
+    margin-left: 80px;
+  }
 }
 @media (max-width: 1200px) {
   .nav-item {
@@ -63,5 +66,8 @@
   }
   .footer-nav {
     margin-left: 10px;
+  }
+  .created {
+    margin-left: 40px;
   }
 }

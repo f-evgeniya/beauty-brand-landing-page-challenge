@@ -204,3 +204,14 @@ form .btn:hover {
   padding: 8px 0;
   font-size: 18px;
 }
+.created {
+        margin-left: 130px;
+        font-family: var(--secondary-text-font);
+        font-size: 12px;
+      }
+      .created a {
+        color: var(--text-color);
+      }
+      .created a:hover {
+        opacity: 0.8;
+      }
